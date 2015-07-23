@@ -51,10 +51,3 @@ def json_handler(request):
     else:
         data = request.POST.mixed()
     return _handle_form(request, data)
-
-
-@view_config(
-    route_name='main',
-)
-def catch_all(request):
-    return "Post only"

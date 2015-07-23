@@ -8,12 +8,11 @@ if (typeof(window.postkasterl) == "undefined") postkasterl = {};
 
 (function($) {
 
-    $(document).ready(function() {
-    });
-
     $.extend(postkasterl, {
 
-        send_mail: {
+        bind: function(selector) {
+            var element = $(selector);
+            console.log('bind postkasterl ' + selector + element);
         }
     });
 

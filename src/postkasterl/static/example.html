@@ -4,7 +4,7 @@
 </head>
 <body>
 
-    <form action="/" method="post">
+    <form action="/" method="post" id="postkasterl_form">
         name: <input type="text" name="name"><br>
         email: <input type="text" name="email"><br>
         text: <input type="text" name="text"><br>
@@ -17,8 +17,9 @@
     </form>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="postkasterl.js"></script>
+
     <script type="text/javascript">
-    // INIT FORM HERE
+        postkasterl.bind("#postkasterl_form");
     </script>
 
 </body>
