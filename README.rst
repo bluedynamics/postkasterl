@@ -15,6 +15,25 @@ Feature Wishlist
 - [ ] Send customized footer/header encrypted with form
 - [ ] re-Captcha support
 
+
+Installation
+============
+
+After cloning enter the directory, then::
+
+    virtualenv .
+    ./bin/pip install -U pip setuptools zc.buildout
+    ./bin/buildout
+
+Then run tests with::
+
+    ./bin/tests
+
+and start server with::
+
+    ./pserve dev.ini
+
+
 Source Code
 ===========
 
