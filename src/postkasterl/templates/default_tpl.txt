@@ -1,0 +1,8 @@
+Nachricht über die Webseite von {name:s}
+Sie haben eine Anfrage über Ihre Webseite erhalten.
+
+Folgende Felder wurden übermittelt:
+
+{fields:s}
+--
+Übermittelt via Postkasterl
