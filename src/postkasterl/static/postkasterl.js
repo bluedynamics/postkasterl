@@ -11,8 +11,8 @@ if (typeof(window.postkasterl) == "undefined") postkasterl = {};
     $.extend(postkasterl, {
 
         bind: function(selector) {
-            var element = $(selector);
-            console.log('bind postkasterl ' + selector + element);
+            var form_element = $(selector);
+            console.log('bind postkasterl ' + selector);
         }
     });
 
